@@ -22,9 +22,7 @@ class RandomWordsState extends State<RandomWords> {
     final TextStyle _biggerFont = const TextStyle(fontSize: 18);
 
     @override
-    Widget build(BuildContext context) {
-        final WordPair wordPair = WordPair.random();
-        
+    Widget build(BuildContext context) {        
         return Scaffold (
             appBar: AppBar(
                 title: Text('Startup Name Generator'),
